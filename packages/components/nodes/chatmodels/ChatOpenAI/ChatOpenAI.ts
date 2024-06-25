@@ -23,10 +23,10 @@ class ChatOpenAI_ChatModels implements INode {
         this.label = 'ChatOpenAI'
         this.name = 'chatOpenAI'
         this.version = 6.0
-        this.type = 'ChatUnifyAI'
+        this.type = 'ChatOpenAI'
         this.icon = 'openai.svg'
         this.category = 'Chat Models'
-        this.description = 'Access all LLMs across all providers with a single API key and a standard API.'
+        this.description = 'Wrapper around OpenAI large language models that use the Chat endpoint'
         this.baseClasses = [this.type, ...getBaseClasses(LangchainChatOpenAI)]
         this.credential = {
             label: 'Connect Credential',

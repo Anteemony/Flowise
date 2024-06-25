@@ -455,11 +455,79 @@
             ]
         },
         {
-            "name": "chatOpenAI",
+            "name": "chatUnifyAI",
             "models": [
+                {
+                    "label": "claude-3-haiku@anthropic",
+                    "name": "claude-3-haiku@anthropic"
+                },
+                {
+                    "label": "claude-3-opus@anthropic",
+                    "name": "claude-3-opus@anthropic"
+                },
+                {
+                    "label": "claude-3-sonnet@anthropic",
+                    "name": "claude-3-sonnet@anthropic"
+                },
+                {
+                    "label": "claude-3.5-sonnet@anthropic",
+                    "name": "claude-3.5-sonnet@anthropic"
+                },
+                {
+                    "label": "codellama-13b-instruct@together-ai",
+                    "name": "codellama-13b-instruct@together-ai"
+                },
+                {
+                    "label": "codellama-13b-instruct@octoai",
+                    "name": "codellama-13b-instruct@octoai"
+                },
+                {
+                    "label": "codellama-13b-instruct@fireworks-ai",
+                    "name": "codellama-13b-instruct@fireworks-ai"
+                },
+                {
+                    "label": "codellama-34b-instruct@anyscale",
+                    "name": "codellama-34b-instruct@anyscale"
+                },
+                {
+                    "label": "codellama-34b-instruct@perplexity-ai",
+                    "name": "codellama-34b-instruct@perplexity-ai"
+                },
+                {
+                    "label": "codellama-34b-instruct@together-ai",
+                    "name": "codellama-34b-instruct@together-ai"
+                },
+                {
+                    "label": "codellama-34b-instruct@octoai",
+                    "name": "codellama-34b-instruct@octoai"
+                },
+                {
+                    "label": "codellama-34b-instruct@fireworks-ai",
+                    "name": "codellama-34b-instruct@fireworks-ai"
+                },
+                {
+                    "label": "codellama-34b-instruct@deepinfra",
+                    "name": "codellama-34b-instruct@deepinfra"
+                },
+                {
+                    "label": "codellama-7b-instruct@together-ai",
+                    "name": "codellama-7b-instruct@together-ai"
+                },
+                {
+                    "label": "codellama-7b-instruct@octoai",
+                    "name": "codellama-7b-instruct@octoai"
+                },
                 {
                     "label": "deepseek-coder-33b-instruct@together-ai",
                     "name": "deepseek-coder-33b-instruct@together-ai"
+                },
+                {
+                    "label": "gemini-1.5-flash@vertex-ai",
+                    "name": "gemini-1.5-flash@vertex-ai"
+                },
+                {
+                    "label": "gemini-1.5-pro@vertex-ai",
+                    "name": "gemini-1.5-pro@vertex-ai"
                 },
                 {
                     "label": "gemma-2b-it@together-ai",
@@ -490,64 +558,112 @@
                     "name": "gemma-7b-it@groq"
                 },
                 {
-                    "label": "claude-3-haiku@anthropic",
-                    "name": "claude-3-haiku@anthropic"
+                    "label": "gpt-3.5-turbo@openai",
+                    "name": "gpt-3.5-turbo@openai"
                 },
                 {
                     "label": "gpt-4-turbo@openai",
                     "name": "gpt-4-turbo@openai"
                 },
                 {
-                    "label": "claude-3.5-sonnet@anthropic",
-                    "name": "claude-3.5-sonnet@anthropic"
+                    "label": "gpt-4@openai",
+                    "name": "gpt-4@openai"
                 },
                 {
-                    "label": "claude-3-opus@anthropic",
-                    "name": "claude-3-opus@anthropic"
+                    "label": "gpt-4o@openai",
+                    "name": "gpt-4o@openai"
                 },
                 {
-                    "label": "claude-3-sonnet@anthropic",
-                    "name": "claude-3-sonnet@anthropic"
+                    "label": "llama-2-13b-chat@anyscale",
+                    "name": "llama-2-13b-chat@anyscale"
                 },
                 {
-                    "label": "mistral-small@mistral-ai",
-                    "name": "mistral-small@mistral-ai"
+                    "label": "llama-2-13b-chat@together-ai",
+                    "name": "llama-2-13b-chat@together-ai"
                 },
                 {
-                    "label": "mistral-large@mistral-ai",
-                    "name": "mistral-large@mistral-ai"
+                    "label": "llama-2-13b-chat@replicate",
+                    "name": "llama-2-13b-chat@replicate"
                 },
                 {
-                    "label": "mixtral-8x22b-instruct-v0.1@mistral-ai",
-                    "name": "mixtral-8x22b-instruct-v0.1@mistral-ai"
+                    "label": "llama-2-13b-chat@octoai",
+                    "name": "llama-2-13b-chat@octoai"
                 },
                 {
-                    "label": "mixtral-8x22b-instruct-v0.1@together-ai",
-                    "name": "mixtral-8x22b-instruct-v0.1@together-ai"
+                    "label": "llama-2-13b-chat@fireworks-ai",
+                    "name": "llama-2-13b-chat@fireworks-ai"
                 },
                 {
-                    "label": "mixtral-8x22b-instruct-v0.1@fireworks-ai",
-                    "name": "mixtral-8x22b-instruct-v0.1@fireworks-ai"
+                    "label": "llama-2-13b-chat@lepton-ai",
+                    "name": "llama-2-13b-chat@lepton-ai"
                 },
                 {
-                    "label": "mixtral-8x22b-instruct-v0.1@deepinfra",
-                    "name": "mixtral-8x22b-instruct-v0.1@deepinfra"
+                    "label": "llama-2-13b-chat@deepinfra",
+                    "name": "llama-2-13b-chat@deepinfra"
                 },
                 {
-                    "label": "llama-3-8b-chat@together-ai",
-                    "name": "llama-3-8b-chat@together-ai"
+                    "label": "llama-2-13b-chat@aws-bedrock",
+                    "name": "llama-2-13b-chat@aws-bedrock"
                 },
                 {
-                    "label": "llama-3-8b-chat@fireworks-ai",
-                    "name": "llama-3-8b-chat@fireworks-ai"
+                    "label": "llama-2-70b-chat@anyscale",
+                    "name": "llama-2-70b-chat@anyscale"
                 },
                 {
-                    "label": "llama-3-8b-chat@groq",
-                    "name": "llama-3-8b-chat@groq"
+                    "label": "llama-2-70b-chat@perplexity-ai",
+                    "name": "llama-2-70b-chat@perplexity-ai"
                 },
                 {
-                    "label": "llama-3-8b-chat@aws-bedrock",
-                    "name": "llama-3-8b-chat@aws-bedrock"
+                    "label": "llama-2-70b-chat@together-ai",
+                    "name": "llama-2-70b-chat@together-ai"
+                },
+                {
+                    "label": "llama-2-70b-chat@replicate",
+                    "name": "llama-2-70b-chat@replicate"
+                },
+                {
+                    "label": "llama-2-70b-chat@octoai",
+                    "name": "llama-2-70b-chat@octoai"
+                },
+                {
+                    "label": "llama-2-70b-chat@fireworks-ai",
+                    "name": "llama-2-70b-chat@fireworks-ai"
+                },
+                {
+                    "label": "llama-2-70b-chat@lepton-ai",
+                    "name": "llama-2-70b-chat@lepton-ai"
+                },
+                {
+                    "label": "llama-2-70b-chat@deepinfra",
+                    "name": "llama-2-70b-chat@deepinfra"
+                },
+                {
+                    "label": "llama-2-70b-chat@aws-bedrock",
+                    "name": "llama-2-70b-chat@aws-bedrock"
+                },
+                {
+                    "label": "llama-2-7b-chat@anyscale",
+                    "name": "llama-2-7b-chat@anyscale"
+                },
+                {
+                    "label": "llama-2-7b-chat@together-ai",
+                    "name": "llama-2-7b-chat@together-ai"
+                },
+                {
+                    "label": "llama-2-7b-chat@replicate",
+                    "name": "llama-2-7b-chat@replicate"
+                },
+                {
+                    "label": "llama-2-7b-chat@fireworks-ai",
+                    "name": "llama-2-7b-chat@fireworks-ai"
+                },
+                {
+                    "label": "llama-2-7b-chat@lepton-ai",
+                    "name": "llama-2-7b-chat@lepton-ai"
+                },
+                {
+                    "label": "llama-2-7b-chat@deepinfra",
+                    "name": "llama-2-7b-chat@deepinfra"
                 },
                 {
                     "label": "llama-3-70b-chat@together-ai",
@@ -566,16 +682,36 @@
                     "name": "llama-3-70b-chat@aws-bedrock"
                 },
                 {
-                    "label": "gemini-1.5-pro@vertex-ai",
-                    "name": "gemini-1.5-pro@vertex-ai"
+                    "label": "llama-3-8b-chat@together-ai",
+                    "name": "llama-3-8b-chat@together-ai"
                 },
                 {
-                    "label": "gemini-1.5-flash@vertex-ai",
-                    "name": "gemini-1.5-flash@vertex-ai"
+                    "label": "llama-3-8b-chat@fireworks-ai",
+                    "name": "llama-3-8b-chat@fireworks-ai"
                 },
                 {
-                    "label": "gpt-4o@openai",
-                    "name": "gpt-4o@openai"
+                    "label": "llama-3-8b-chat@groq",
+                    "name": "llama-3-8b-chat@groq"
+                },
+                {
+                    "label": "llama-3-8b-chat@aws-bedrock",
+                    "name": "llama-3-8b-chat@aws-bedrock"
+                },
+                {
+                    "label": "mistral-7b-instruct-v0.1@anyscale",
+                    "name": "mistral-7b-instruct-v0.1@anyscale"
+                },
+                {
+                    "label": "mistral-7b-instruct-v0.1@together-ai",
+                    "name": "mistral-7b-instruct-v0.1@together-ai"
+                },
+                {
+                    "label": "mistral-7b-instruct-v0.1@fireworks-ai",
+                    "name": "mistral-7b-instruct-v0.1@fireworks-ai"
+                },
+                {
+                    "label": "mistral-7b-instruct-v0.1@deepinfra",
+                    "name": "mistral-7b-instruct-v0.1@deepinfra"
                 },
                 {
                     "label": "mistral-7b-instruct-v0.2@perplexity-ai",
@@ -606,8 +742,32 @@
                     "name": "mistral-7b-instruct-v0.2@fireworks-ai"
                 },
                 {
+                    "label": "mistral-large@mistral-ai",
+                    "name": "mistral-large@mistral-ai"
+                },
+                {
                     "label": "mistral-medium@mistral-ai",
                     "name": "mistral-medium@mistral-ai"
+                },
+                {
+                    "label": "mistral-small@mistral-ai",
+                    "name": "mistral-small@mistral-ai"
+                },
+                {
+                    "label": "mixtral-8x22b-instruct-v0.1@mistral-ai",
+                    "name": "mixtral-8x22b-instruct-v0.1@mistral-ai"
+                },
+                {
+                    "label": "mixtral-8x22b-instruct-v0.1@together-ai",
+                    "name": "mixtral-8x22b-instruct-v0.1@together-ai"
+                },
+                {
+                    "label": "mixtral-8x22b-instruct-v0.1@fireworks-ai",
+                    "name": "mixtral-8x22b-instruct-v0.1@fireworks-ai"
+                },
+                {
+                    "label": "mixtral-8x22b-instruct-v0.1@deepinfra",
+                    "name": "mixtral-8x22b-instruct-v0.1@deepinfra"
                 },
                 {
                     "label": "mixtral-8x7b-instruct-v0.1@together-ai",
@@ -654,124 +814,12 @@
                     "name": "mixtral-8x7b-instruct-v0.1@groq"
                 },
                 {
-                    "label": "mistral-7b-instruct-v0.1@anyscale",
-                    "name": "mistral-7b-instruct-v0.1@anyscale"
+                    "label": "pplx-70b-chat@perplexity-ai",
+                    "name": "pplx-70b-chat@perplexity-ai"
                 },
                 {
-                    "label": "mistral-7b-instruct-v0.1@together-ai",
-                    "name": "mistral-7b-instruct-v0.1@together-ai"
-                },
-                {
-                    "label": "mistral-7b-instruct-v0.1@fireworks-ai",
-                    "name": "mistral-7b-instruct-v0.1@fireworks-ai"
-                },
-                {
-                    "label": "mistral-7b-instruct-v0.1@deepinfra",
-                    "name": "mistral-7b-instruct-v0.1@deepinfra"
-                },
-                {
-                    "label": "llama-2-7b-chat@anyscale",
-                    "name": "llama-2-7b-chat@anyscale"
-                },
-                {
-                    "label": "llama-2-7b-chat@together-ai",
-                    "name": "llama-2-7b-chat@together-ai"
-                },
-                {
-                    "label": "llama-2-7b-chat@replicate",
-                    "name": "llama-2-7b-chat@replicate"
-                },
-                {
-                    "label": "llama-2-7b-chat@fireworks-ai",
-                    "name": "llama-2-7b-chat@fireworks-ai"
-                },
-                {
-                    "label": "llama-2-7b-chat@lepton-ai",
-                    "name": "llama-2-7b-chat@lepton-ai"
-                },
-                {
-                    "label": "llama-2-7b-chat@deepinfra",
-                    "name": "llama-2-7b-chat@deepinfra"
-                },
-                {
-                    "label": "codellama-34b-instruct@anyscale",
-                    "name": "codellama-34b-instruct@anyscale"
-                },
-                {
-                    "label": "codellama-34b-instruct@perplexity-ai",
-                    "name": "codellama-34b-instruct@perplexity-ai"
-                },
-                {
-                    "label": "codellama-34b-instruct@together-ai",
-                    "name": "codellama-34b-instruct@together-ai"
-                },
-                {
-                    "label": "codellama-34b-instruct@octoai",
-                    "name": "codellama-34b-instruct@octoai"
-                },
-                {
-                    "label": "codellama-34b-instruct@fireworks-ai",
-                    "name": "codellama-34b-instruct@fireworks-ai"
-                },
-                {
-                    "label": "codellama-34b-instruct@deepinfra",
-                    "name": "codellama-34b-instruct@deepinfra"
-                },
-                {
-                    "label": "llama-2-70b-chat@anyscale",
-                    "name": "llama-2-70b-chat@anyscale"
-                },
-                {
-                    "label": "llama-2-70b-chat@perplexity-ai",
-                    "name": "llama-2-70b-chat@perplexity-ai"
-                },
-                {
-                    "label": "llama-2-70b-chat@together-ai",
-                    "name": "llama-2-70b-chat@together-ai"
-                },
-                {
-                    "label": "llama-2-70b-chat@replicate",
-                    "name": "llama-2-70b-chat@replicate"
-                },
-                {
-                    "label": "llama-2-70b-chat@octoai",
-                    "name": "llama-2-70b-chat@octoai"
-                },
-                {
-                    "label": "llama-2-70b-chat@fireworks-ai",
-                    "name": "llama-2-70b-chat@fireworks-ai"
-                },
-                {
-                    "label": "llama-2-70b-chat@lepton-ai",
-                    "name": "llama-2-70b-chat@lepton-ai"
-                },
-                {
-                    "label": "llama-2-70b-chat@deepinfra",
-                    "name": "llama-2-70b-chat@deepinfra"
-                },
-                {
-                    "label": "llama-2-70b-chat@aws-bedrock",
-                    "name": "llama-2-70b-chat@aws-bedrock"
-                },
-                {
-                    "label": "codellama-7b-instruct@together-ai",
-                    "name": "codellama-7b-instruct@together-ai"
-                },
-                {
-                    "label": "codellama-7b-instruct@octoai",
-                    "name": "codellama-7b-instruct@octoai"
-                },
-                {
-                    "label": "codellama-13b-instruct@together-ai",
-                    "name": "codellama-13b-instruct@together-ai"
-                },
-                {
-                    "label": "codellama-13b-instruct@octoai",
-                    "name": "codellama-13b-instruct@octoai"
-                },
-                {
-                    "label": "codellama-13b-instruct@fireworks-ai",
-                    "name": "codellama-13b-instruct@fireworks-ai"
+                    "label": "pplx-7b-chat@perplexity-ai",
+                    "name": "pplx-7b-chat@perplexity-ai"
                 },
                 {
                     "label": "yi-34b-chat@together-ai",
@@ -780,55 +828,12 @@
                 {
                     "label": "yi-34b-chat@deepinfra",
                     "name": "yi-34b-chat@deepinfra"
-                },
-                {
-                    "label": "pplx-7b-chat@perplexity-ai",
-                    "name": "pplx-7b-chat@perplexity-ai"
-                },
-                {
-                    "label": "gpt-4@openai",
-                    "name": "gpt-4@openai"
-                },
-                {
-                    "label": "pplx-70b-chat@perplexity-ai",
-                    "name": "pplx-70b-chat@perplexity-ai"
-                },
-                {
-                    "label": "gpt-3.5-turbo@openai",
-                    "name": "gpt-3.5-turbo@openai"
-                },
-                {
-                    "label": "llama-2-13b-chat@anyscale",
-                    "name": "llama-2-13b-chat@anyscale"
-                },
-                {
-                    "label": "llama-2-13b-chat@together-ai",
-                    "name": "llama-2-13b-chat@together-ai"
-                },
-                {
-                    "label": "llama-2-13b-chat@replicate",
-                    "name": "llama-2-13b-chat@replicate"
-                },
-                {
-                    "label": "llama-2-13b-chat@octoai",
-                    "name": "llama-2-13b-chat@octoai"
-                },
-                {
-                    "label": "llama-2-13b-chat@fireworks-ai",
-                    "name": "llama-2-13b-chat@fireworks-ai"
-                },
-                {
-                    "label": "llama-2-13b-chat@lepton-ai",
-                    "name": "llama-2-13b-chat@lepton-ai"
-                },
-                {
-                    "label": "llama-2-13b-chat@deepinfra",
-                    "name": "llama-2-13b-chat@deepinfra"
-                },
-                {
-                    "label": "llama-2-13b-chat@aws-bedrock",
-                    "name": "llama-2-13b-chat@aws-bedrock"
-                },
+                }
+            ]
+        },
+        {
+            "name": "chatOpenAI",
+            "models": [
                 {
                     "label": "gpt-4o",
                     "name": "gpt-4o"
